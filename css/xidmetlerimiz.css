@@ -1,0 +1,37 @@
+:root {
+    --color3: var #2e2020;
+}
+
+.ourservices-title {
+    font-family: "Cormorant Garamond", sans-serif;
+    color: var(--color3);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.xidmet-block {
+    margin: 10% 0 10% 0;
+}
+
+.between-block-xidmetler {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.between-block-xidmetler p {
+    font-size: 16px;
+    font-family: "Cormorant Garamond", sans-serif;
+    color: var(--color3);
+}
+
+.between-block-xidmetler h2 {
+    margin: 21px 0 21px 0;
+    font-family: "Cormorant Garamond", sans-serif;
+    color: var(--color3);
+}
+
+.services-img {
+    width: 100%;
+}

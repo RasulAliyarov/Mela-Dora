@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.ourgarden-title {
+    font-family: "Cormorant Garamond", sans-serif;
+    color: #2e2020;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+.bignumber{
+    font-size: 130px;
+    color: #918F8F;
+    font-weight: 400;
+}
+
+.box-title{
+    color: #5F5C5C;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 9px;
+    margin-bottom: 16px;
+}
+
+.block-text{
+    font-size: 18px;
+    color: #7C7A7A;
+    font-weight: 400;
+}
+.ourgarden{
+    width: 100%;
+}

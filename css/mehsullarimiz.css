@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    font-family: "Cormorant Garamond", sans-serif;
+
+}
+
+:root {
+    --color3: var #2e2020;
+}
+
+.goods-title {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.goods-link {
+    text-decoration: none;
+    color: var(--color3);
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", sans-serif;
+    transition: .3s ease;
+    margin: 55px 0 45px 0;
+
+}
+
+.goods-link:hover {
+    color: #91B40D;
+    transition: .3s ease;
+}
+
+.goods-box {    
+    width: 230px;
+    height: 232px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    transition: .4s ease;
+    position: relative;
+    margin-top: 10%;
+}
+.goods-col{
+    display: flex;
+    justify-content: center;
+}
+.goods-box:hover {
+    transform: scale(1.1);
+    transition: .4s ease;
+}
+
+.goods-box-img {
+    position: absolute;
+    position: absolute;
+    top: 0%;
+    left: 9%;
+}
+
+.goods-box-in-box {
+    width: 182px;
+    height: 74px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    z-index: 3;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+.goods-price {
+    color: #91B40D;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+}
+
+.goods-box-in-box-title {
+    color: #2e2020;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.goods-manat {
+    width: 23px;
+    color: #91B40D;
+    position: absolute;
+    top: 62%;
+    left: 59%;
+}
+
+.dekor {
+    text-decoration: none;
+    color: #2e2020;
+}
+
+
+.modal-body{
+    position: relative;
+}
+.modal-goods-price{
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    color: #91B40D;
+    padding: 0 10px;
+
+}
+.modal-goods-manat{
+    color: #91B40D;
+
+}
+.modal-goods-title{
+    color: #2e2020;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+.modal-goods{
+    position: absolute;
+    width: 30%;
+    top: 8%;
+    right: 66%;
+}
+
+/* 
+.row>* {
+    padding-right: 0;
+} */
+
+.modal-content{
+    width: 75%;
+    height: 30%;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-radius:5%;
+}

@@ -1,0 +1,22 @@
+:root {
+    --color3: var #2e2020;
+}
+.info h1{
+    font-family: "Cormorant Garamond", sans-serif;
+    color: var(--color3);
+    font-size: 48px;
+    font-weight: 600;
+}
+.info p{
+    font-family: "Cormorant Garamond", sans-serif;
+    color: var(--color3);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 5% 0 5% 0;
+}
+
+
+/* .row>* {
+    padding-right: 0;
+} */
+

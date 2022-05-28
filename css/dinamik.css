@@ -1,0 +1,220 @@
+@media only screen and (max-width:1200px) {
+    .case-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .firstblock1 {
+        width: 336px;
+        height: 550px;
+        justify-content: center;
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        flex-direction: row-reverse;
+        padding: 10%;
+    }
+
+    .secondblock2 {
+        width: 336px;
+        height: 450px;
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        justify-content: center;
+        padding: 0 15px;
+        flex-direction: row-reverse;
+    }
+
+    .thirdblock3 {
+        width: 336px;
+        height: 450px;
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        justify-content: center;
+        padding: 0 15px;
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    .first-biz {
+        margin-top: 5%;
+    }
+
+    .h-icon {
+        width: 12px;
+    }
+
+    .block-is-down {
+        margin: 0;
+    }
+
+    .f-block {
+        margin-top: 10%;
+    }
+
+    .f-loqo-block {
+        margin-top: 35%;
+    }
+
+    .contact-box {
+        margin-bottom: 100px;
+    }
+
+    /* Xidmetlerimiz HTML */
+    .xidmet-block-2,
+    .ourgarden-1,
+    .ourgarden-3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ourservices-title {
+        font-size: 32px;
+    }
+
+    /* Xidmetlerimiz HTML */
+    .about-img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .about-title {
+        margin-top: 5% !important;
+    }
+
+    .about-down {
+        margin: 0;
+    }
+
+    .modal-goods-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .modal-goods-img img {
+        margin-top: 3%;
+    }
+
+    .modal-up-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .case-imp-content {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: grid;
+    }
+
+    .case {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .f-loqo {
+        margin: 25% 0 0 0;
+    }
+
+    .blocks {
+        margin: 5% 0 0 0;
+    }
+
+    .firstblock1 {
+        width: 336px;
+        height: 20%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        flex-direction: row-reverse;
+        padding: 10%;
+    }
+
+    .secondblock2 {
+        width: 336px;
+        height: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 15px;
+        flex-direction: column-reverse;
+    }
+
+  
+
+    .thirdblock3 {
+        width: 336px;
+        height: 40%;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        padding: 0 15px;
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (max-width:792px) {
+    .wh {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .modal-dialog {
+        max-width: 100% !important;
+        margin: 2.8rem auto !important;
+    }
+}
+
+@media only screen and (max-width: 487px) {
+    .f-loqo-block {
+        margin-top: 90%;
+    }
+
+    .goods-link {
+        margin: 2%;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .container {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px;
+    }
+
+    .goods-title {
+        font-size: 35px;
+    }
+
+    .goods-link {
+        margin: 1%;
+    }
+
+    .firstblock1{
+        width: 200px;
+    }
+    .case-section {
+        width: 200px;
+    }
+}
