@@ -7,7 +7,6 @@ $(document).ready(function () {
     autoplay: true,
     autoplayTimeout: 3000,
     loop: true,
-    nav: true
   });
 });
 

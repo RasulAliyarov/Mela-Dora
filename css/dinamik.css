@@ -155,7 +155,7 @@
         flex-direction: column-reverse;
     }
 
-  
+
 
     .thirdblock3 {
         width: 336px;
@@ -191,6 +191,34 @@
     .goods-link {
         margin: 2%;
     }
+
+    .aboutinfo h1 {
+        font-size: 32px;
+    }
+
+    .aboutinfo p {
+        font-size: 0.8rem;
+    }
+
+    .about-img2 {
+        width: 15%;
+    }
+
+    .goods-title {
+        font-size: 35px !important;
+    }
+
+    .goods-link {
+        font-size: 20px !important;
+        margin: 1% !important;
+
+    }
+
+    [class^="icon-"]:before, [class*=" icon-"]:before {
+        width: 5% !important;
+        margin-right: 0 !important;
+        
+    }
 }
 
 @media only screen and (max-width:300px) {
@@ -204,17 +232,28 @@
     }
 
     .goods-title {
-        font-size: 35px;
+        font-size: 26px !important;
     }
 
     .goods-link {
-        margin: 1%;
+        font-size: 18px !important;
+        margin: 1% !important;
+
     }
 
-    .firstblock1{
+    .firstblock1 {
         width: 200px;
     }
+
     .case-section {
         width: 200px;
+    }
+
+    .aboutinfo h1 {
+        font-size: 25px;
+    }
+
+    .aboutinfo p {
+        font-size: 0.7rem;
     }
 }

@@ -473,3 +473,7 @@ footer {
 .navbar-toggler {
     box-shadow: none !important;
 }
+
+.owl-carousel.modal-goods-img{
+    transform: none;
+}

@@ -132,8 +132,8 @@
 } */
 
 .modal-content{
-    width: 75%;
-    height: 30%;
+    width: 65%;
+    height: 60% !important;
     background-color: #F7F7F7;
     margin: 0 auto;
     border-radius:5%;

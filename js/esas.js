@@ -4,6 +4,7 @@ $(document).ready(function () {
       autoplay: true,
       margin: 10,
       responsiveClass: true,
+      freeDrag:true,
       responsive: {
         0: {
           items: 1,
